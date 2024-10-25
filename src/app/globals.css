@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Tangerine&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap');
+
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #b5b5b5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #b5b5b5;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 400 */
+
+.playwrite-gb-s-100 {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.playwrite-gb-s-200 {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.playwrite-gb-s-300 {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.playwrite-gb-s-400 {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playwrite-gb-i-400 {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+// <width>: Use a value from 62.5 to 100 */
+
+.noto-serif-display-400 {
+  font-family: "Noto Serif Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.noto-serif-display-700 {
+  font-family: "Noto Serif Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.noto-serif-display-900 {
+  font-family: "Noto Serif Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@font-face{
+  font-family: "integralcf-demibold";
+  src: url('../../fonts/integralcf-demibold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'integralcf-bold';
+  src: url('../../fonts/integralcf-bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'integralcf-medium';
+  src: url('../../fonts/integralcf-medium.otf');
+  font-weight: normal;
+  font-style: normal;
+}
