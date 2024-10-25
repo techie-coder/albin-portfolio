@@ -2,9 +2,11 @@
 import eduImage from '../../../public/Forest Sunrise Scenic View.jpg'
 import Image from 'next/image'
 
-export default function ResearchEvents(props){
+interface Props{
+    title: string;
+}
 
-    const title = props.title;
+export default function ResearchEvents({title}: Props){
 
 
     return(

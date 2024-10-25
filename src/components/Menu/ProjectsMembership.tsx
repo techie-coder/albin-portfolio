@@ -2,9 +2,13 @@
 import eduImage from '../../../public/Railway Mountain Houses.jpg'
 import Image from 'next/image'
 
-export default function EducationExperience(props){
+interface Props{
+    title: string;
+}
 
-    const title = props.title;
+export default function EducationExperience({title}:Props){
+
+    
 
 
     return(

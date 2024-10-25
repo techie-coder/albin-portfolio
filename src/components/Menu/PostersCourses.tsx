@@ -2,9 +2,11 @@ import eduImage from '../../../public/Curved Road Time Lapse.jpg'
 import Image from 'next/image'
 import './menu.css';
 
-export default function ResearchEvents(props){
+interface Props{
+    title: string;
+}
 
-    const title = props.title;
+export default function ResearchEvents({title}:Props){
 
 
     return(

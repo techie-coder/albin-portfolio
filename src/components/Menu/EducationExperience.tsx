@@ -3,10 +3,11 @@ import eduImage from '../../../public/Mountains Wide Angle.jpg'
 import Image from 'next/image'
 import './menu.css';
 
-export default function EducationExperience(props){
+interface Props{
+    title: string;
+}
 
-    const title = props.title;
-
+export default function EducationExperience({title}: Props){
 
     return(
         <div id="div-id" className="ml-10 mt-28 mb-10 relative w-screen">

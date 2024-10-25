@@ -1,9 +1,12 @@
 import eduImage from '../../../public/Mountain Cliff Person.jpg'
 import Image from 'next/image'
 
-export default function PublicationAwards(props){
+interface Props{
+    title: string;
+}
 
-    const title = props.title;
+export default function PublicationAwards({title}: Props){
+
 
     return(
         <div id="div-id" className="ml-10 mt-28 mb-10 relative w-screen">
